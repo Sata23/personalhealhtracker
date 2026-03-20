@@ -1,0 +1,80 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project PersonalHealthTracker.xcodeproj -scheme PersonalHealthTracker -configuration Debug -destination "platform=iOS Simulator,id=85B61B95-7F32-460E-816A-7A7F23909ECE" build
+
+2026-03-06 00:37:11.192 xcodebuild[85172:10012082] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'PersonalHealthTracker' in project 'PersonalHealthTracker' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk /Users/santausarker/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache
+    cd /Users/santausarker/Documents/PersonalHealthTracker/PersonalHealthTracker.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -o /Users/santausarker/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache
+
+SwiftDriver PersonalHealthTracker normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+    cd /Users/santausarker/Documents/PersonalHealthTracker
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name PersonalHealthTracker -Onone -enforce-exclusivity\=checked @/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/Objects-normal/arm64/PersonalHealthTracker.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/santausarker/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Products/Debug-iphonesimulator -F /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/santausarker/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/iphonesimulator26.2-23C57-7d00a8b37fbd7999ea79df8ebc024bf0.sdkstatcache -output-file-map /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/Objects-normal/arm64/PersonalHealthTracker-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/santausarker/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/santausarker/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/Objects-normal/arm64/PersonalHealthTracker.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/santausarker/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/Objects-normal/arm64/PersonalHealthTracker_const_extract_protocols.json -Xcc -iquote -Xcc /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/PersonalHealthTracker-generated-files.hmap -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/PersonalHealthTracker-own-target-headers.hmap -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/PersonalHealthTracker-all-target-headers.hmap -Xcc -iquote -Xcc /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/PersonalHealthTracker-project-headers.hmap -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/DerivedSources-normal/arm64 -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/DerivedSources/arm64 -Xcc -I/Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/santausarker/Library/Developer/Xcode/DerivedData/PersonalHealthTracker-acfvwqlyzkbrpmfnapdsatartjyu/Build/Intermediates.noindex/PersonalHealthTracker.build/Debug-iphonesimulator/PersonalHealthTracker.build/Objects-normal/arm64/PersonalHealthTracker-Swift.h -working-directory /Users/santausarker/Documents/PersonalHealthTracker -experimental-emit-module-separately -disable-cmo
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:187:5: error: attribute 'private' can only be used in a non-local scope
+    private var actionButtonSection: some View {
+    ^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:216:1: error: expected '}' at end of brace statement
+
+^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:146:44: note: to match this opening '{'
+    private var mainResultsCard: some View {
+                                           ^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:216:1: error: expected '}' in struct
+
+^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:3:38: note: to match this opening '{'
+struct Type2DiabetesResultView: View {
+                                     ^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/StitchFlowRouter.swift:148:1: error: expected '}' at end of enum
+
+^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/StitchFlowRouter.swift:84:29: note: to match this opening '{'
+enum StitchScreen: Hashable {
+                            ^
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:187:5: error: Attribute 'private' can only be used in a non-local scope
+    private var actionButtonSection: some View {
+    ^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:216:1: error: Expected '}' at end of brace statement
+
+^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:146:44: note: To match this opening '{'
+    private var mainResultsCard: some View {
+                                           ^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:216:1: error: Expected '}' in struct
+
+^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/Type2DiabetesResultView.swift:3:38: note: To match this opening '{'
+struct Type2DiabetesResultView: View {
+                                     ^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/StitchFlowRouter.swift:148:1: error: Expected '}' at end of enum
+
+^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+/Users/santausarker/Documents/PersonalHealthTracker/Sources/PersonalHealthTracker/Views/StitchFlow/StitchFlowRouter.swift:84:29: note: To match this opening '{'
+enum StitchScreen: Hashable {
+                            ^ (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	SwiftDriver PersonalHealthTracker normal arm64 com.apple.xcode.tools.swift.compiler (in target 'PersonalHealthTracker' from project 'PersonalHealthTracker')
+	Building project PersonalHealthTracker with scheme PersonalHealthTracker and configuration Debug
+(2 failures)
